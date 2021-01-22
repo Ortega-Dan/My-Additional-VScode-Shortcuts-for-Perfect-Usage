@@ -210,5 +210,13 @@
         "key": "ctrl+shift+g b",
         "command": "-gitlens.toggleFileBlame",
         "when": "editorTextFocus && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /blameable/"
+    },
+    {
+        "key": "ctrl+alt+s",
+        "command": "-workbench.action.files.saveAs"
+    },
+    {
+        "key": "ctrl+alt+s",
+        "command": "toggle.diff.ignoreTrimWhitespace"
     }
 ]
