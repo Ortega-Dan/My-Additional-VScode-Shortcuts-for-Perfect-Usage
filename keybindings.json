@@ -1,222 +1,601 @@
 // Place your key bindings in this file to override the defaultsauto[]
 // this are located at ~/.config/Code/User/keybindings.json
 [
-    {
-        "key": "ctrl+alt+w",
-        "command": "workbench.action.closeOtherEditors"
-    },
-    {
-        "key": "ctrl+alt+f",
-        "command": "git.openFile",
-        "when": "isInDiffEditor"
-    },
-    {
-        "key": "ctrl+k",
-        "command": "-editor.action.nextSelectionMatchFindAction",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+alt+g",
-        "command": "git.openChange"
-    },
-    {
-        "key": "ctrl+i",
-        "command": "markdown.showSource"
-    },
-    {
-        "key": "ctrl+alt+p",
-        "command": "git.sync"
-    },
-    {
-        "key": "ctrl+alt+u",
-        "command": "git.refresh"
-    },
-    {
-        "key": "ctrl+shift+e",
-        "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
-        "when": "inFilesPicker && inQuickOpen"
-    },
-    {
-        "key": "ctrl+alt+l",
-        "command": "git-graph.view"
-    },
-    {
-        "key": "ctrl+shift+g",
-        "command": "-editor.action.referenceSearch.trigger",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+alt+n",
-        "command": "workbench.action.terminal.toggleTerminal"
-    },
-    {
-        "key": "ctrl+alt+t",
-        "command": "-workbench.action.terminal.toggleTerminal"
-    },
-    {
-        "key": "ctrl+alt+m",
-        "command": "workbench.action.toggleMaximizedPanel"
-    },
-    {
-        "key": "ctrl+alt+i",
-        "command": "-nativescript.runIos"
-    },
-    {
-        "key": "ctrl+alt+i",
-        "command": "toggle.diff.renderSideBySide"
-    },
-    {
-        "key": "alt+n",
-        "command": "workbench.action.editor.nextChange",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+f5",
-        "command": "-workbench.action.editor.nextChange",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+b",
-        "command": "workbench.action.editor.previousChange",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "shift+alt+f5",
-        "command": "-workbench.action.editor.previousChange",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+n",
-        "command": "workbench.action.compareEditor.nextChange",
-        "when": "textCompareEditorVisible"
-    },
-    {
-        "key": "alt+f5",
-        "command": "-workbench.action.compareEditor.nextChange",
-        "when": "textCompareEditorVisible"
-    },
-    {
-        "key": "alt+b",
-        "command": "workbench.action.compareEditor.previousChange",
-        "when": "textCompareEditorVisible"
-    },
-    {
-        "key": "shift+alt+f5",
-        "command": "-workbench.action.compareEditor.previousChange",
-        "when": "textCompareEditorVisible"
-    },
-    {
-        "key": "ctrl+alt+a",
-        "command": "-nativescript.runAndroid"
-    },
-    {
-        "key": "ctrl+alt+a",
-        "command": "git.stage"
-    },
-    {
-        "key": "ctrl+alt+b",
-        "command": "workbench.action.tasks.build"
-    },
-    {
-        "key": "ctrl+shift+b",
-        "command": "-workbench.action.tasks.build"
-    },
-    {
-        "key": "ctrl+shift+g shift+7",
-        "command": "-gitlens.gitCommands",
-        "when": "!gitlens:disabled && config.gitlens.keymap == 'chorded'"
-    },
-    {
-        "key": "ctrl+shift+g [Period]",
-        "command": "-gitlens.diffWithNextInDiffLeft",
-        "when": "editorTextFocus && isInDiffEditor && !isInDiffRightEditor && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /revision/ && gitlens:activeFileStatus =~ /revision/"
-    },
-    {
-        "key": "ctrl+shift+g [Period]",
-        "command": "-gitlens.diffWithNextInDiffRight",
-        "when": "editorTextFocus && isInDiffRightEditor && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /revision/ && gitlens:activeFileStatus =~ /revision/"
-    },
-    {
-        "key": "ctrl+shift+g [Comma]",
-        "command": "-gitlens.diffWithPreviousInDiffLeft",
-        "when": "editorTextFocus && isInDiffEditor && !isInDiffRightEditor && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /tracked/"
-    },
-    {
-        "key": "ctrl+shift+g shift+h",
-        "command": "-gitlens.showQuickRepoHistory",
-        "when": "!gitlens:disabled && config.gitlens.keymap == 'chorded'"
-    },
-    {
-        "key": "ctrl+shift+g h",
-        "command": "-gitlens.showQuickFileHistory",
-        "when": "!gitlens:disabled && config.gitlens.keymap == 'chorded'"
-    },
-    {
-        "key": "ctrl+shift+g c",
-        "command": "-gitlens.showQuickCommitFileDetails",
-        "when": "editorTextFocus && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
-    },
-    {
-        "key": "ctrl+shift+g s",
-        "command": "-gitlens.showQuickRepoStatus",
-        "when": "!gitlens:disabled && config.gitlens.keymap == 'chorded'"
-    },
-    {
-        "key": "ctrl+shift+g shift+b",
-        "command": "-gitlens.toggleCodeLens",
-        "when": "editorTextFocus && !gitlens:disabled && !gitlens:disabledToggleCodeLens && config.gitlens.keymap == 'chorded'"
-    },
-    {
-        "key": "ctrl+shift+g g",
-        "command": "-workbench.view.scm",
-        "when": "!gitlens:disabled && config.gitlens.keymap == 'chorded'"
-    },
-    {
-        "key": "ctrl+shift+g [Period]",
-        "command": "-gitlens.diffWithNext",
-        "when": "editorTextFocus && !isInDiffEditor && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /revision/ && gitlens:activeFileStatus =~ /revision/"
-    },
-    {
-        "key": "ctrl+shift+g [Comma]",
-        "command": "-gitlens.diffWithPrevious",
-        "when": "editorTextFocus && !isInDiffEditor && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /tracked/"
-    },
-    {
-        "key": "ctrl+shift+g [Comma]",
-        "command": "-gitlens.diffWithPreviousInDiffRight",
-        "when": "editorTextFocus && isInDiffRightEditor && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /tracked/"
-    },
-    {
-        "key": "ctrl+shift+g shift+[IntlBackslash]",
-        "command": "-gitlens.diffWithWorking",
-        "when": "editorTextFocus && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /revision/"
-    },
-    {
-        "key": "ctrl+shift+g ctrl+shift+alt+x",
-        "command": "-gitlens.diffWithWorking",
-        "when": "editorTextFocus && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /revision/"
-    },
-    {
-        "key": "ctrl+shift+g [IntlBackslash]",
-        "command": "-gitlens.diffLineWithPrevious",
-        "when": "editorTextFocus && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /tracked/"
-    },
-    {
-        "key": "ctrl+shift+g ctrl+shift+alt+z",
-        "command": "-gitlens.diffLineWithPrevious",
-        "when": "editorTextFocus && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /tracked/"
-    },
-    {
-        "key": "ctrl+shift+g b",
-        "command": "-gitlens.toggleFileBlame",
-        "when": "editorTextFocus && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /blameable/"
-    },
-    {
-        "key": "ctrl+alt+s",
-        "command": "-workbench.action.files.saveAs"
-    },
-    {
-        "key": "ctrl+alt+s",
-        "command": "toggle.diff.ignoreTrimWhitespace"
-    }
+  {
+    "key": "ctrl+alt+w",
+    "command": "workbench.action.closeOtherEditors"
+  },
+  {
+    "key": "ctrl+alt+f",
+    "command": "git.openFile",
+    "when": "isInDiffEditor"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "-editor.action.nextSelectionMatchFindAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+g",
+    "command": "git.openChange"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "markdown.showSource"
+  },
+  {
+    "key": "ctrl+alt+p",
+    "command": "git.sync"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "git.refresh",
+    "when": "view.workbench.scm.visible"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
+    "when": "inFilesPicker && inQuickOpen"
+  },
+  {
+    "key": "ctrl+alt+l",
+    "command": "git-graph.view"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+alt+t",
+    "command": "-workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+alt+m",
+    "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    "key": "ctrl+alt+i",
+    "command": "-nativescript.runIos"
+  },
+  {
+    "key": "ctrl+alt+i",
+    "command": "toggle.diff.renderSideBySide"
+  },
+  {
+    "key": "alt+n",
+    "command": "workbench.action.editor.nextChange",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+f5",
+    "command": "-workbench.action.editor.nextChange",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+n",
+    "command": "workbench.action.editor.previousChange",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+f5",
+    "command": "-workbench.action.editor.previousChange",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+n",
+    "command": "workbench.action.compareEditor.nextChange",
+    "when": "textCompareEditorVisible"
+  },
+  {
+    "key": "alt+f5",
+    "command": "-workbench.action.compareEditor.nextChange",
+    "when": "textCompareEditorVisible"
+  },
+  {
+    "key": "shift+alt+n",
+    "command": "workbench.action.compareEditor.previousChange",
+    "when": "textCompareEditorVisible"
+  },
+  {
+    "key": "shift+alt+f5",
+    "command": "-workbench.action.compareEditor.previousChange",
+    "when": "textCompareEditorVisible"
+  },
+  {
+    "key": "ctrl+alt+a",
+    "command": "-nativescript.runAndroid"
+  },
+  {
+    "key": "ctrl+alt+a",
+    "command": "git.stage"
+  },
+  {
+    "key": "ctrl+alt+b",
+    "command": "workbench.action.tasks.build"
+  },
+  {
+    "key": "ctrl+shift+b",
+    "command": "-workbench.action.tasks.build"
+  },
+  {
+    "key": "ctrl+shift+g shift+7",
+    "command": "-gitlens.gitCommands",
+    "when": "!gitlens:disabled && config.gitlens.keymap == 'chorded'"
+  },
+  {
+    "key": "ctrl+shift+g [Period]",
+    "command": "-gitlens.diffWithNextInDiffLeft",
+    "when": "editorTextFocus && isInDiffEditor && !isInDiffRightEditor && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /revision/ && gitlens:activeFileStatus =~ /revision/"
+  },
+  {
+    "key": "ctrl+shift+g [Period]",
+    "command": "-gitlens.diffWithNextInDiffRight",
+    "when": "editorTextFocus && isInDiffRightEditor && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /revision/ && gitlens:activeFileStatus =~ /revision/"
+  },
+  {
+    "key": "ctrl+shift+g [Comma]",
+    "command": "-gitlens.diffWithPreviousInDiffLeft",
+    "when": "editorTextFocus && isInDiffEditor && !isInDiffRightEditor && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /tracked/"
+  },
+  {
+    "key": "ctrl+shift+g shift+h",
+    "command": "-gitlens.showQuickRepoHistory",
+    "when": "!gitlens:disabled && config.gitlens.keymap == 'chorded'"
+  },
+  {
+    "key": "ctrl+shift+g h",
+    "command": "-gitlens.showQuickFileHistory",
+    "when": "!gitlens:disabled && config.gitlens.keymap == 'chorded'"
+  },
+  {
+    "key": "ctrl+shift+g c",
+    "command": "-gitlens.showQuickCommitFileDetails",
+    "when": "editorTextFocus && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
+  },
+  {
+    "key": "ctrl+shift+g s",
+    "command": "-gitlens.showQuickRepoStatus",
+    "when": "!gitlens:disabled && config.gitlens.keymap == 'chorded'"
+  },
+  {
+    "key": "ctrl+shift+g shift+b",
+    "command": "-gitlens.toggleCodeLens",
+    "when": "editorTextFocus && !gitlens:disabled && !gitlens:disabledToggleCodeLens && config.gitlens.keymap == 'chorded'"
+  },
+  {
+    "key": "ctrl+shift+g g",
+    "command": "-workbench.view.scm",
+    "when": "!gitlens:disabled && config.gitlens.keymap == 'chorded'"
+  },
+  {
+    "key": "ctrl+shift+g [Period]",
+    "command": "-gitlens.diffWithNext",
+    "when": "editorTextFocus && !isInDiffEditor && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /revision/ && gitlens:activeFileStatus =~ /revision/"
+  },
+  {
+    "key": "ctrl+shift+g [Comma]",
+    "command": "-gitlens.diffWithPrevious",
+    "when": "editorTextFocus && !isInDiffEditor && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /tracked/"
+  },
+  {
+    "key": "ctrl+shift+g [Comma]",
+    "command": "-gitlens.diffWithPreviousInDiffRight",
+    "when": "editorTextFocus && isInDiffRightEditor && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /tracked/"
+  },
+  {
+    "key": "ctrl+shift+g shift+[IntlBackslash]",
+    "command": "-gitlens.diffWithWorking",
+    "when": "editorTextFocus && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /revision/"
+  },
+  {
+    "key": "ctrl+shift+g ctrl+shift+alt+x",
+    "command": "-gitlens.diffWithWorking",
+    "when": "editorTextFocus && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /revision/"
+  },
+  {
+    "key": "ctrl+shift+g [IntlBackslash]",
+    "command": "-gitlens.diffLineWithPrevious",
+    "when": "editorTextFocus && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /tracked/"
+  },
+  {
+    "key": "ctrl+shift+g ctrl+shift+alt+z",
+    "command": "-gitlens.diffLineWithPrevious",
+    "when": "editorTextFocus && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /tracked/"
+  },
+  {
+    "key": "ctrl+shift+g b",
+    "command": "-gitlens.toggleFileBlame",
+    "when": "editorTextFocus && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /blameable/"
+  },
+  {
+    "key": "ctrl+alt+s",
+    "command": "-workbench.action.files.saveAs"
+  },
+  {
+    "key": "ctrl+alt+s",
+    "command": "toggle.diff.ignoreTrimWhitespace"
+  },
+  {
+    "key": "ctrl+shift+g g",
+    "command": "-workbench.view.scm",
+    "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
+  },
+  {
+    "key": "shift+alt+g",
+    "command": "java.action.generateConstructorsPrompt"
+  },
+  {
+    "key": "ctrl+shift+alt+f",
+    "command": "git-graph.openFile",
+    "when": "isInDiffEditor"
+  },
+  {
+    "key": "shift+alt+c",
+    "command": "editor.action.sourceAction"
+  },
+  {
+    "key": "ctrl+shift+b",
+    "command": "markdown.extension.editing.toggleBold",
+    "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^qmd$/"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-markdown.extension.editing.toggleBold",
+    "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^qmd$/"
+  },
+  {
+    "key": "f11",
+    "command": "workbench.action.debug.restart",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "ctrl+shift+f5",
+    "command": "-workbench.action.debug.restart",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "ctrl+shift+f11",
+    "command": "workbench.action.debug.stop",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "ctrl+f2",
+    "command": "-workbench.action.debug.stop",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "ctrl+shift+b",
+    "command": "markdown.extension.editing.toggleBold",
+    "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-markdown.extension.editing.toggleBold",
+    "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "workbench.view.extension.kubernetesView"
+  },
+  {
+    "key": "ctrl+shift+r",
+    "command": "extension.vsKubernetesRefreshExplorer",
+    "when": "kubernetes.cloudExplorer.visible"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "workbench.view.extension.dockerView"
+  },
+  {
+    "key": "ctrl+alt+l",
+    "command": "git-graph.fetch"
+  },
+  {
+    "key": "shift+alt+enter",
+    "command": "github.copilot.acceptCursorPanelSolution",
+    "when": "github.copilot.activated && github.copilot.panelVisible"
+  },
+  {
+    "key": "ctrl+shift+7",
+    "command": "-github.copilot.acceptCursorPanelSolution",
+    "when": "github.copilot.activated && github.copilot.panelVisible"
+  },
+  {
+    "key": "alt+enter",
+    "command": "github.copilot.generate",
+    "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "-github.copilot.generate",
+    "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
+  },
+  {
+    "key": "alt+j",
+    "command": "editor.action.inlineSuggest.acceptNextWord",
+    "when": "inlineSuggestionVisible && !editorReadonly"
+  },
+  {
+    "key": "ctrl+right",
+    "command": "-editor.action.inlineSuggest.acceptNextWord",
+    "when": "inlineSuggestionVisible && !editorReadonly"
+  },
+  {
+    "key": "alt+l",
+    "command": "editor.action.inlineSuggest.acceptNextLine"
+  },
+  {
+    "key": "shift+alt+]",
+    "command": "-editor.action.inlineSuggest.showNext",
+    "when": "inlineSuggestionVisible && !editorReadonly"
+  },
+  {
+    "key": "alt+k",
+    "command": "editor.action.inlineSuggest.showNext",
+    "when": "inlineSuggestionVisible && !editorReadonly"
+  },
+  {
+    "key": "alt+k",
+    "command": "github.copilot.nextPanelSolution",
+    "when": "github.copilot.activated && github.copilot.panelVisible"
+  },
+  {
+    "key": "shift+alt+]",
+    "command": "-github.copilot.nextPanelSolution",
+    "when": "github.copilot.activated && github.copilot.panelVisible"
+  },
+  {
+    "key": "shift+alt+k",
+    "command": "github.copilot.previousPanelSolution",
+    "when": "github.copilot.activated && github.copilot.panelVisible"
+  },
+  {
+    "key": "shift+alt+[",
+    "command": "-github.copilot.previousPanelSolution",
+    "when": "github.copilot.activated && github.copilot.panelVisible"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.keepEditor"
+  },
+  {
+    "key": "ctrl+k enter",
+    "command": "-workbench.action.keepEditor"
+  },
+  {
+    "key": "ctrl+shift+d",
+    "command": "testing.debugLastRun"
+  },
+  {
+    "key": "ctrl+shift+[Comma] ctrl+l",
+    "command": "-testing.debugLastRun"
+  },
+  {
+    "key": "ctrl+shift+6",
+    "command": "workbench.action.terminal.new",
+    "when": "terminal.active"
+  },
+  {
+    "key": "shift+alt+w",
+    "command": "editor.debug.action.selectionToWatch"
+  },
+  {
+    "key": "shift+alt+i",
+    "command": "import-all.addAllMissingImports"
+  },
+  {
+    "key": "shift+alt+d",
+    "command": "testing.debugAtCursor",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+[Comma] ctrl+c",
+    "command": "-testing.debugAtCursor",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+r",
+    "command": "-workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+shift+r",
+    "command": "-extension.vsKubernetesDescribe.Refresh",
+    "when": "vscodeKubernetesDescribeContext"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-editor.action.referenceSearch.trigger",
+    "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "workbench.action.terminal.resizePaneDown",
+    "when": "panelFocus"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "workbench.action.terminal.resizePaneUp",
+    "when": "panelFocus"
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "-workbench.actions.view.problems",
+    "when": "workbench.panel.markers.view.active"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "-editor.action.toggleTabFocusMode"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "-markdown.extension.editing.toggleMath",
+    "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
+  },
+  {
+    "key": "ctrl+shift+alt+m",
+    "command": "bookmarks.toggle",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+k",
+    "command": "-bookmarks.toggle",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+t",
+    "command": "workbench.action.output.toggleOutput",
+    "when": "panelFocus"
+  },
+  {
+    "key": "ctrl+k ctrl+h",
+    "command": "-workbench.action.output.toggleOutput",
+    "when": "workbench.panel.output.active"
+  },
+  {
+    "key": "ctrl+shift+y",
+    "command": "workbench.debug.action.toggleRepl",
+    "when": "panelFocus"
+  },
+  {
+    "key": "ctrl+shift+y",
+    "command": "-workbench.debug.action.toggleRepl",
+    "when": "workbench.panel.repl.view.active"
+  },
+  {
+    "key": "alt+a",
+    "command": "git.stageSelectedRanges",
+    "when": "isInDiffEditor && !operationInProgress"
+  },
+  {
+    "key": "ctrl+k ctrl+alt+s",
+    "command": "-git.stageSelectedRanges",
+    "when": "isInDiffEditor && !operationInProgress"
+  },
+  {
+    "key": "shift+alt+a",
+    "command": "git.unstageSelectedRanges",
+    "when": "isInDiffEditor && !operationInProgress"
+  },
+  {
+    "key": "ctrl+k ctrl+n",
+    "command": "-git.unstageSelectedRanges",
+    "when": "isInDiffEditor && !operationInProgress"
+  },
+  {
+    "key": "shift+alt+b",
+    "command": "workbench.debug.viewlet.action.toggleBreakpointsActivatedAction"
+  },
+  {
+    "key": "shift+alt+e",
+    "command": "testing.runAtCursor",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+[Comma] c",
+    "command": "-testing.runAtCursor",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "f12",
+    "command": "workbench.action.debug.run",
+    "when": "debuggersAvailable && debugState != 'initializing'"
+  },
+  {
+    "key": "ctrl+f11",
+    "command": "-workbench.action.debug.run",
+    "when": "debuggersAvailable && debugState != 'initializing'"
+  },
+  {
+    "key": "alt+b",
+    "command": "-gitlens.toggleFileBlame",
+    "when": "editorTextFocus && config.gitlens.keymap == 'alternate' && gitlens:activeFileStatus =~ /blameable/"
+  },
+  {
+    "key": "alt+b",
+    "command": "editor.debug.action.toggleBreakpoint",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+b",
+    "command": "-editor.debug.action.toggleBreakpoint",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+m",
+    "command": "-editor.action.codeAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+m",
+    "command": "bookmarks.toggleLabeled"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "workbench.action.toggleAuxiliaryBar"
+  },
+  {
+    "key": "ctrl+alt+b",
+    "command": "-workbench.action.toggleAuxiliaryBar"
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "bookmarksExplorer.focus"
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "markdown.showPreviewToSide",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+k v",
+    "command": "-markdown.showPreviewToSide",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "-workbench.action.showCommands"
+  },
+  {
+    "key": "ctrl+shift+alt+f",
+    "command": "git.openHEADFile"
+  },
+  {
+    "key": "ctrl+shift+alt+f",
+    "command": "git.openFile2"
+  },
+  {
+    "key": "ctrl+shift+alt+f",
+    "command": "gitlens.openWorkingFile"
+  },
+  {
+    "key": "shift+alt+t",
+    "command": "java.test.goToTest"
+  },
+  {
+    "key": "shift+alt+t",
+    "command": "java.test.goToTestSubject"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "workbench.action.editorDictation.start",
+    "when": "hasSpeechProvider && !editorDictation.inProgress && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+v",
+    "command": "-workbench.action.editorDictation.start",
+    "when": "hasSpeechProvider && !editorDictation.inProgress && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+q",
+    "command": "-sqlite.runDocumentQuery",
+    "when": "editorLangId =~ /(sql|sqlite)/"
+  },
+  {
+    "key": "ctrl+shift+q",
+    "command": "sqlite.runSelectedQuery"
+  }
 ]
