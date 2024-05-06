@@ -1,0 +1,393 @@
+{
+  "notebook.kernelProviderAssociations": [
+    {
+      "viewType": "jupyter-notebook",
+      "kernelProvider": "ms-toolsai.jupyter"
+    }
+  ],
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "java.requirements.JDK11Warning": false,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.factorypath": true,
+    "**/.project": true,
+    "**/.settings": true
+  },
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "oracleDeveloperTools.networkConfiguration.configFilesLocation": "/home/danort/Oracle/network/admin",
+  "oracleDeveloperTools.networkConfiguration.walletFileLocation": "/home/danort/Oracle/network/admin",
+  "oracleDeveloperTools.oracleConnections": [
+    {
+      "authenticationType": 2,
+      "connectionType": 2,
+      "dBAPrivilege": "None",
+      "dataSource": "192.168.0.42:1521/xe",
+      "databaseHostName": "192.168.0.42",
+      "databasePortNumber": "1521",
+      "databaseServiceName": "xe",
+      "name": "STUDENT.xe",
+      "password": "student",
+      "passwordEmptyByUser": false,
+      "passwordSaved": true,
+      "userID": "STUDENT",
+      "tnsAdmin": "/home/danort/Oracle/network/admin"
+    }
+  ],
+  "extensions.ignoreRecommendations": false,
+  "java.semanticHighlighting.enabled": false,
+  "explorer.confirmDelete": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "python.jediEnabled": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "go.formatTool": "goimports",
+  "java.refactor.renameFromFileExplorer": "autoApply",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "html.format.wrapAttributes": "force-aligned",
+  "gitlens.views.repositories.files.layout": "list",
+  "enableTelemetry": false,
+  "java.project.importOnFirstTimeStartup": "automatic",
+  "python.languageServer": "Pylance",
+  "maven.executable.preferMavenWrapper": true,
+  "python.showStartPage": false,
+  "githubIssues.queries": [
+    {
+      "label": "My Issues",
+      "query": "default"
+    },
+    {
+      "label": "Created Issues",
+      "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+    }
+  ],
+  "git.fetchOnPull": true,
+  "cSpell.enableFiletypes": [
+    "!html",
+    "tsv"
+  ],
+  "nativescript.analytics.enabled": false,
+  "xml.symbols.maxItemsComputed": 50000000,
+  "editor.wordWrap": "on",
+  "cSpell.userWords": [
+    "antiracism",
+    "antiracist",
+    "autenticación",
+    "Basson",
+    "binarization",
+    "Binarize",
+    "checkstyle",
+    "configurables",
+    "configurate",
+    "CPUs",
+    "estandarización",
+    "Falabella",
+    "framework",
+    "habilitarnos",
+    "hazelcast",
+    "Homologación",
+    "indexación",
+    "jupiter",
+    "Liahona",
+    "mockito",
+    "nuvalence",
+    "openapi",
+    "optimización",
+    "optimizaciones",
+    "premortal",
+    "retroalimentación",
+    "reutilización",
+    "subtipologías",
+    "Synergetics",
+    "tipología",
+    "tipologías",
+    "usable",
+    "uuid"
+  ],
+  "liveshare.authenticationProvider": "GitHub",
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "workbench.colorCustomizations": {
+    "[Default Dark+]": {
+      "statusBar.background": "#1A1A1A"
+    }
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "angular.enable-experimental-ivy-prompt": false,
+  "git-graph.repository.commits.showSignatureStatus": true,
+  "workbench.editorAssociations": {
+    "*.txt": "default",
+    "*.ipynb": "jupyter-notebook"
+  },
+  "debug.onTaskErrors": "abort",
+  "redhat.telemetry.enabled": false,
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "cmake.configureOnOpen": false,
+  "go.toolsManagement.autoUpdate": true,
+  "jupyter.disableJupyterAutoStart": true,
+  "editor.largeFileOptimizations": false,
+  "jupyter.askForKernelRestart": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "notebook.lineNumbers": "on",
+  "files.maxMemoryForLargeFilesMB": 8192,
+  "java.imports.gradle.wrapper.checksums": [
+    {
+      "sha256": "2cae31aaabe2b362438e10dce5538f9a554e183056485df883f45aee08a008e0",
+      "allowed": true
+    }
+  ],
+  "cSpell.language": "en,es-ES",
+  "zenMode.hideLineNumbers": false,
+  "solidity.compileUsingRemoteVersion": "v0.8.8+commit.dddeac2f",
+  "quarkus.tools.alwaysShowWelcomePage": false,
+  "terminal.integrated.profiles.linux": {
+    "/bin/bash (migrated)": {
+      "path": "/bin/bash",
+      "args": []
+    }
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "vs-kubernetes": {
+    "vscode-kubernetes.minikube-path.linux": "/home/danortega/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+    "vscode-kubernetes.helm-path.linux": "/home/danortega/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+    "vscode-kubernetes.minikube-path-linux": "/home/danortega/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube"
+  },
+  "git.autofetch": true,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "explorer.confirmDragAndDrop": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "michelemelluso.code-beautifier"
+  },
+  "files.associations": {
+    "*.inactive": "cpp",
+    "*.goerror": "go",
+    ".env*": "dotenv"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "arduino.useArduinoCli": true,
+  "git.openRepositoryInParentFolders": "always",
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "githubPullRequests.createOnPublishBranch": "never",
+  "workbench.startupEditor": "none",
+  "kotlin.languageServer.enabled": false,
+  "kotlin.debugAdapter.enabled": false,
+  "boot-java.rewrite.reconcile": true,
+  "githubPullRequests.pullBranch": "never",
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false
+  },
+  "rsp-ui.enableStartServerOnActivation": [
+    {
+      "id": "redhat.vscode-community-server-connector",
+      "name": "Community Server Connector",
+      "startOnActivation": true
+    }
+  ],
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "explorer.openEditors.visible": 0,
+  "python.analysis.typeCheckingMode": "basic",
+  "checkstyle.enable": false,
+  "java.eclipse.downloadSources": true,
+  "java.maven.downloadSources": true,
+  "editor.pasteAs.enabled": false,
+  "sonarlint.rules": {},
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "cloudcode.autoDependencies": "off",
+  "window.titleBarStyle": "custom",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 5000,
+  "jest.autoRun": {},
+  "sonarlint.pathToNodeExecutable": "/home/danortega/.nvm/versions/node/v18.20.2/bin/node",
+  "XLF: Empty": false,
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#dd0531"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#61dafb"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    },
+    {
+      "name": "Svelte Orange",
+      "value": "#ff3d00"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    },
+    {
+      "name": "Lime Green",
+      "value": "#579535"
+    },
+    {
+      "name": "Waned Light Brown",
+      "value": "#ad8554"
+    },
+    {
+      "name": "Navy Blue",
+      "value": "navy"
+    },
+    {
+      "name": "purple audit",
+      "value": "#26143a"
+    },
+    {
+      "name": "gold notification",
+      "value": "#5c5303"
+    },
+    {
+      "name": "silver user",
+      "value": "#686868"
+    },
+    {
+      "name": "maroon web",
+      "value": "#470110"
+    },
+    {
+      "name": "green notes",
+      "value": "#1a4427"
+    },
+    {
+      "name": "chocolate demo",
+      "value": "#4e270c"
+    },
+    {
+      "name": "blue work",
+      "value": "#0f3362"
+    },
+    {
+      "name": "teal-blue document",
+      "value": "#024457"
+    }
+  ],
+  "githubPullRequests.fileListLayout": "tree",
+  "cloudcode.project": "dsgov-dev",
+  "gitlens.graph.layout": "editor",
+  "todo-tree.general.statusBar": "tags",
+  "todo-tree.highlights.enabled": false,
+  "todo-tree.general.revealBehaviour": "leave focus in tree",
+  "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
+  "cloudcode.yaml.format.enable": true,
+  "cloudcode.yaml.format.singleQuote": true,
+  "hediet.vscode-drawio.resizeImages": null,
+  "plantuml.exportFormat": "png",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-11",
+      "path": "/usr/lib/jvm/java-11-openjdk-amd64"
+    },
+    {
+      "name": "JavaSE-17",
+      "path": "/usr/lib/jvm/java-17-openjdk-amd64"
+    }
+  ],
+  "plantuml.exportOutDir": ".out",
+  "git-graph.keyboardShortcut.refresh": "UNASSIGNED",
+  "workbench.editor.showTabs": "multiple",
+  "markdown.extension.toc.levels": "2..6",
+  "nxConsole.showNodeVersionOnStartup": false,
+  "yaml.format.singleQuote": true,
+"gitlens.views.searchAndCompare.files.layout": "tree",
+  "cloudcode.duetAI.enable": false,
+  "cloudcode.duetAI.inlineSuggestions.enableAuto": false,
+  "gitlens.views.commitDetails.files.layout": "tree",
+  "editor.tokenColorCustomizations": {
+    "[*Light*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#000"
+          }
+        }
+      ]
+    },
+    "[*Dark*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#fff"
+          }
+        }
+      ]
+    },
+    "textMateRules": []
+  },
+  "dotenv.enableAutocloaking": false,
+  // "python.experiments.optOutFrom": [
+  //     "All"
+  // ]
+}
