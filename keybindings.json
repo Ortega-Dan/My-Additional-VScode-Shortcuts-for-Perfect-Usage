@@ -597,5 +597,15 @@
   {
     "key": "ctrl+shift+q",
     "command": "sqlite.runSelectedQuery"
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "extension.pasteImage",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+v",
+    "command": "-extension.pasteImage",
+    "when": "editorTextFocus"
   }
 ]
