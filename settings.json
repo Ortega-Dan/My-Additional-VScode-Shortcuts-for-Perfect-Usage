@@ -65,10 +65,7 @@
     }
   ],
   "git.fetchOnPull": true,
-  "cSpell.enableFiletypes": [
-    "!html",
-    "tsv"
-  ],
+  "cSpell.enableFiletypes": ["!html", "tsv"],
   "nativescript.analytics.enabled": false,
   "xml.symbols.maxItemsComputed": 50000000,
   "editor.wordWrap": "on",
@@ -224,9 +221,7 @@
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.rulers": [
-      80
-    ],
+    "editor.rulers": [80],
     "editor.selectionHighlight": true,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
@@ -359,7 +354,6 @@
   "markdown.extension.toc.levels": "2..6",
   "nxConsole.showNodeVersionOnStartup": false,
   "yaml.format.singleQuote": true,
-"gitlens.views.searchAndCompare.files.layout": "tree",
   "cloudcode.duetAI.enable": false,
   "cloudcode.duetAI.inlineSuggestions.enableAuto": false,
   "gitlens.views.commitDetails.files.layout": "tree",
@@ -387,7 +381,10 @@
     "textMateRules": []
   },
   "dotenv.enableAutocloaking": false,
-  // "python.experiments.optOutFrom": [
-  //     "All"
-  // ]
+  "diffEditor.ignoreTrimWhitespace": false,
+  "window.customTitleBarVisibility": "auto",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "gitlens.views.searchAndCompare.files.layout": "tree",
+  "pasteImage.path": "${currentFileDir}/imgs",
+  "debug.inlineValues": "off"
 }
