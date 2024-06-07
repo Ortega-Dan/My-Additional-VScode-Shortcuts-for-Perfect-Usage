@@ -4,7 +4,7 @@ After installing "Eclipse Keymap" extension by "Alphabot"
 
 ___
 
-When using vscode-insiders, do not sync settings from there, but just copy your regular settings and shortcuts into it, and add the following extentions:
+When using vscode-insiders for gitlog only or note taking, do not sync settings from there, but just copy your regular settings and shortcuts into it, and add the following extentions:
 - alphabotsec.vscode-eclipse-keybindings
 - mhutchie.git-graph
 - yzhang.markdown-all-in-one
