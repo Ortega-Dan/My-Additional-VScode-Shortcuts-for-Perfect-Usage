@@ -10,4 +10,5 @@ When using vscode-insiders, do not sync settings from there, but just copy your 
 - yzhang.markdown-all-in-one
 - bierner.markdown-emoji
 - mushan.vscode-paste-image
+  
 ![vscode-insiders-extentions-image](https://github.com/Ortega-Dan/My-Additional-VScode-Shortcuts-for-Perfect-Usage/assets/24926168/4239b13c-2389-411a-98c1-18c6633fa3e0)
